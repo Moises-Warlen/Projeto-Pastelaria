@@ -12,3 +12,10 @@ C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Repository\bin\Debug\Pastelaria.Do
 C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Repository\obj\Debug\Pastelaria.Repository.csprojResolveAssemblyReference.cache
 C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Repository\obj\Debug\Pastelaria.Repository.dll
 C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Repository\obj\Debug\Pastelaria.Repository.pdb
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\bin\Debug\Pastelaria.Repository.dll
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\bin\Debug\Pastelaria.Repository.pdb
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\bin\Debug\Pastelaria.Domain.dll
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\bin\Debug\Pastelaria.Domain.pdb
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\obj\Debug\Pastelaria.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\obj\Debug\Pastelaria.Repository.dll
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Repository\obj\Debug\Pastelaria.Repository.pdb

@@ -7,3 +7,8 @@ C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Domain\bin\Debug\Pastelaria.Domain
 C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Domain\bin\Debug\Pastelaria.Domain.pdb
 C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.dll
 C:\Users\Moises\Desktop\Pastel\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.pdb
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\bin\Debug\Pastelaria.Domain.dll
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\bin\Debug\Pastelaria.Domain.pdb
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.dll
+C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.pdb

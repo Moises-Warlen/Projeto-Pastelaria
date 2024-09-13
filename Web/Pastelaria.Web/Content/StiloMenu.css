@@ -11,6 +11,27 @@ body {
     color: #333;
 }
 
+.container.body-content {
+    /* Defina o tamanho da caixa */
+    margin: auto; /* Centraliza a caixa horizontalmente */
+    padding: 20px;
+    /* Adiciona espaço interno */
+   
+    /* Defina o estilo de fundo */
+    background-color: #f4f4f4; /* Exemplo de cor de fundo */
+
+    /* Defina a borda */
+    border: 1px solid #ddd; /* Exemplo de borda */
+    box-sizing: border-box;
+    /* Outras propriedades */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adiciona sombra */
+    
+    /* Garanta que o conteúdo fique acima do menu lateral */
+    position: relative;
+    z-index: 1000; /* Valor alto para garantir que fique acima do menu lateral */
+    padding-left: 10px; /* Ajusta o padding interno */
+        margin-right: 20px;
+}
 /* Estilos do menu lateral */
 #sidebar {
     background-color: #ffeb99;
@@ -23,7 +44,7 @@ body {
     transition: transform 0.3s ease, width 0.3s ease;
     transform: translateX(0);
     overflow-x: hidden;
-    z-index: 999;
+    z-index: 999; /* Valor mais baixo que o container.body-content */
 }
 
 .menu_fixo {
@@ -104,9 +125,8 @@ body {
 /* Estilo do botão de alternância removido */
 
 .content {
-    margin-left: 250px;
     padding: 20px;
-    transition: margin-left 0.3s ease;
+    transition: padding-left 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -115,8 +135,11 @@ body {
         transform: translateX(0); /* O menu estará sempre visível, mas estreito */
     }
 
-    .content {
-        margin-left: 80px; /* Ajusta o conteúdo para compensar a largura do menu estreito */
+    .container.body-content {
+        margin-left: 100px; /* Ajusta a distância do menu estreito */
+        max-width: calc(100% - 100px); /* Ajusta o tamanho máximo para não sobrepor o menu estreito */
+ margin-right: 20px;
+
     }
 
     .profile-icon {
@@ -154,8 +177,11 @@ body {
         transform: translateX(0); /* Mantém o menu visível em telas grandes */
     }
 
-    .content {
-        margin-left: 250px; /* Ajusta o conteúdo para compensar a largura do menu completo */
+    .container.body-content {
+        margin-left: 270px; /* Distância fixa do menu lateral */
+        max-width: calc(100% - 270px); /* Ajusta o tamanho máximo para não sobrepor o menu lateral */
+ margin-right: 20px;
+
     }
 
     .profile-icon {
