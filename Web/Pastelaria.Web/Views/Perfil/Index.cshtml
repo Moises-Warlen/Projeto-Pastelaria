@@ -1,0 +1,33 @@
+﻿@using System.Linq
+@model IEnumerable<Pastelaria.Web.Application.Perfil.Model.PerfilModel>
+
+<!-- Título principal da tabela -->
+<h1>Informações do Perfil</h1>
+
+<table class="table table-striped" id="telefone">
+    <thead>
+        <tr>
+            <th>IdPerfil</th>
+            <th>Tipo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Loop para cada perfil -->
+        @if (Model != null && Model.Any())
+        {
+            foreach (var perfil in Model)
+            {
+                <tr>
+                    <td>@perfil.IdPerfil</td>
+                    <td>@perfil.Tipo</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="2">Nenhum perfil encontrado.</td>
+            </tr>
+        }
+    </tbody>
+</table>

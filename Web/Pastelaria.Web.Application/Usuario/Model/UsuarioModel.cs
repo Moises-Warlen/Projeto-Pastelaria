@@ -1,4 +1,5 @@
 ﻿using Pastelaria.Web.Application.Endereco;
+using Pastelaria.Web.Application.Perfil.Model;
 using Pastelaria.Web.Application.Tarefa;
 using Pastelaria.Web.Application.Telefone;
 using System;

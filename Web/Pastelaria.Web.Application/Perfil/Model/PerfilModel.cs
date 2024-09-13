@@ -1,7 +1,8 @@
-﻿
-public class PerfilModel
+﻿namespace Pastelaria.Web.Application.Perfil.Model
 {
-    public int IdPerfil { get; set; }
-    public string Tipo { get; set; }
-
+    public class PerfilModel
+    {
+        public int IdPerfil { get; set; }
+        public string Tipo { get; set; }
+    }
 }

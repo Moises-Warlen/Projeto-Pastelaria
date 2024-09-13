@@ -72,6 +72,7 @@
     <Compile Include="Infra\Request.cs" />
     <Compile Include="Infra\Response.cs" />
     <Compile Include="Perfil\Model\PerfilModel.cs" />
+    <Compile Include="Perfil\PerfilApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tarefa\Model\TarefaModel.cs" />
     <Compile Include="Telefone\Model\TelefoneModel.cs" />
