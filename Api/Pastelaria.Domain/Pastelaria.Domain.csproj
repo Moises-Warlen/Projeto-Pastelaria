@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Perfil\Dto\PerfilDto.cs" />
+    <Compile Include="Perfil\IPerfilRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Teste\Dto\TesteDto.cs" />
     <Compile Include="Teste\ITesteRepository.cs" />

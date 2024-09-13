@@ -46,6 +46,7 @@
     <Compile Include="Infra\HandledExceptions\DbException.cs" />
     <Compile Include="Infra\IDataBaseConnection .cs" />
     <Compile Include="Infra\Parameter.cs" />
+    <Compile Include="PerfilRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TesteRepository.cs" />
   </ItemGroup>
