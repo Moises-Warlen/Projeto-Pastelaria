@@ -14,5 +14,6 @@ C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Paste
 C:\Users\Moises\Desktop\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.pdb
 C:\Users\Moises\Pictures\Projeto-Pastelaria\Api\Pastelaria.Domain\bin\Debug\Pastelaria.Domain.dll
 C:\Users\Moises\Pictures\Projeto-Pastelaria\Api\Pastelaria.Domain\bin\Debug\Pastelaria.Domain.pdb
+C:\Users\Moises\Pictures\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Moises\Pictures\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.dll
 C:\Users\Moises\Pictures\Projeto-Pastelaria\Api\Pastelaria.Domain\obj\Debug\Pastelaria.Domain.pdb

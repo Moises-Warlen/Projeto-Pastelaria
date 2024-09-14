@@ -1,5 +1,6 @@
 ﻿using Pastelaria.Domain.Perfil;
 using Pastelaria.Domain.Teste;
+using Pastelaria.Domain.Usuario;
 using Pastelaria.Repository;
 using Pastelaria.Repository.Infra;
 using SimpleInjector;
@@ -28,6 +29,7 @@ namespace Pastelaria.Api
         {
             Container.Register<ITesteRepository, TesteRepository>();
             Container.Register<IPerfilRepository, PerfilRepository>();
+            Container.Register<IUsuarioRepository, UsuarioRepository>();
         }
     }
 }

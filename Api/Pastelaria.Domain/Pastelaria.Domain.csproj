@@ -40,11 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Endereco\Dto\EnderecoDto.cs" />
     <Compile Include="Perfil\Dto\PerfilDto.cs" />
     <Compile Include="Perfil\IPerfilRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tarefa\TarefaDto.cs" />
+    <Compile Include="Telefone\Dto\TelefoneDto.cs" />
     <Compile Include="Teste\Dto\TesteDto.cs" />
     <Compile Include="Teste\ITesteRepository.cs" />
+    <Compile Include="Usuario\Dto\UsuarioDto.cs" />
+    <Compile Include="Usuario\IUsuarioRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

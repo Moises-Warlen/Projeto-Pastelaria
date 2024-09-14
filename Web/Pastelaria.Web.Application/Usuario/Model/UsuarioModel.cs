@@ -12,13 +12,10 @@ public class UsuarioModel
     public string Email { get; set; }
     public string Senha { get; set; }
     public DateTime DataNascimento { get; set; }
-    public string TelefoneFixo { get; set; }
-    public string Celular { get; set; }
-    public string Endereco { get; set; }
-    public PerfilModel Perfil { get; set; }
+    public IEnumerable<PerfilModel> Perfil { get; set; }
     public IEnumerable<TelefoneModel> Telefones { get; set; }
     public IEnumerable<EnderecoModel> Enderecos { get; set; }
     public List<TarefaModel> Tarefas { get; set; }
-    public bool Ind_Ativo { get; set; }
+    public bool Ativo { get; set; }
 
 }
